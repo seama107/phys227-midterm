@@ -17,8 +17,7 @@ Good stuff. Hahaha, trap rule.
 ## Honor Pledge
 
 I pledge that all the work in this repository is my own. 
-I used this code for my progress bar in problem 3 though:
-http://stackoverflow.com/questions/3002085/python-to-print-out-status-bar-and-percentage
+
 
 Signed,
 

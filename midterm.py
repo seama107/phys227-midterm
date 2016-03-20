@@ -27,6 +27,10 @@ def sequence(x0, r, N = 100):
     return yList
 
 def plotAsymtoticValues(x0, r, nMin, nMax):
+    """
+    Plots the values that eq 1 returns for N = nMin to nMax for 
+    r = r and x0 = x0
+    """
     seq = sequence(x0, r, nMax)
     vectorized_plot = np.vectorize(plt.plot)
     vectorized_plot(r, seq[nMin:], 'b.')
