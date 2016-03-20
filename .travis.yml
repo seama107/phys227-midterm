@@ -1,0 +1,10 @@
+language: python
+python:
+  - "2.7"
+# installing dependencies
+install: "pip install pylint sympy"
+# run tests
+script:
+  - "nosetests *.py"
+notifications:
+  email: false
